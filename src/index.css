@@ -33,3 +33,7 @@ code {
 .link-container > p {
   padding: 0 5px;
 }
+
+.btn btn-warning{
+  justify-content: flex-end;
+}

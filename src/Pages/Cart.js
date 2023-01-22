@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import CartItemCard from "../Components/Card/CartItemCard";
-import ProductCard from "../Components/Card/ProductCard";
+
 
 export default function Cart() {
   const { items = [] } = useSelector((state) => state.cart);
